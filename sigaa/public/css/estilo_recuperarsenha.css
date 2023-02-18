@@ -1,0 +1,17 @@
+.place {
+    font-size: 15px;
+}
+
+.butao_form {
+
+    width: 50%;
+}
+
+.estilo{
+    text-decoration: none;
+}
+
+.estilo:hover{
+    font-weight: bold;
+  
+}

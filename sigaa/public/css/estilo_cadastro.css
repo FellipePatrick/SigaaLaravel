@@ -1,0 +1,41 @@
+
+@media (max-width: 991.98px) {
+    .imagecapa {
+        display: none;
+    }
+}
+
+footer a {
+    text-decoration:none;
+    color: white;
+}
+
+button a {
+    text-decoration:none;
+    color: white;
+}
+
+button a:hover {
+    text-decoration:none;
+    color: white;
+}
+
+.place {
+    font-size: 15px;
+}
+
+.imageseta {
+    margin-top: 20px;
+    height: auto;
+    width: 30px !important;
+}
+
+.form-check {
+    padding: ;
+}
+
+
+.form-check-label {
+    margin-left: -50px;
+    width: 100px;
+}

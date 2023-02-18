@@ -1,0 +1,46 @@
+.links {
+    height: 70%;
+}
+
+.itens h4 {
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+.imagee{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 15% !important;
+    width: 100px;
+}
+
+
+@media screen and (max-width: 768px) { 
+
+    .caixa h4 {
+        font-size: 15px;
+    }
+    h5 {
+        font-size: 15px;
+    }
+    .departrow li {
+        font-size: 13px;
+    }
+
+    .imagee {
+        margin-left: 10px !important;
+    }
+
+    .ul_infos {
+        margin-top: 6%;
+    }
+
+    .ul_infos li{
+
+        font-size: 13px !important;
+    }
+
+
+}

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+.acadastrar {
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: lighter    ;
+}
+.acadastrar:hover {
+    color: rgb(221, 221, 221) ;
+}
+
+
+
+.marcador {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-top: 20px;
+}
+
+.fontes {
+    color: white;
+    font-size: 13px;
+}
+
+
+header a {
+    
+    text-decoration:none;
+    color: white;
+    
+}
+
+header a:hover {
+    
+    color: black;
+    
+}
+
+
+
+footer a {
+    text-decoration:none;
+    color: white;
+}
+
+
+.texto_footer {
+    font-size: 13px;
+}
+
+H3 {
+    margin: 0;
+}
+
+.copyright {
+  
+    bottom: 0;
+}
+
+.TEXTD{
+    font-size: 12px;
+}
+
+@media screen and (max-width: 992px) {
+    .image2{
+        display: none;
+    }
+    .TEXTD{
+        display: none;
+    }
+    }
+
+
+ @media screen and (max-width: 1400px) {
+     .movee{
+        margin-left: 80px !important;
+     }
+     .moveeb{
+        margin-top: 5px;
+        margin-left: 50px !important;
+     }
+    }
+    
+ @media screen and (max-width: 991px) {
+    .movee{
+       margin-left: 100px !important;
+    }
+    .moveeb{
+       margin-top: 10px;
+       margin-left: 50px !important;
+    }
+    .extensao {
+        display: none;
+    }
+    .extensaotext {
+        width: 50%;
+    }
+   }
+   
+   @media screen and (max-width: 575px) {
+    .movee{
+       margin-left: 10px !important;
+    }
+    .moveeb{
+       margin-top: 0px !important;
+       margin-left: -30px !important;
+    }
+   
+
+   }
+   
+
+   @media screen and (max-width: 767px) {
+    .biologia {
+        margin-left: 100px;
+        width: 100%;
+    }
+    .cursoss {
+        width: 100%;
+    }
+
+   }

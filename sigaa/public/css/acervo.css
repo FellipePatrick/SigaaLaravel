@@ -1,0 +1,117 @@
+.conteudo_acervo {
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 1198px) {
+        .imagem_livro {
+            margin-left: -100px !important;
+        }
+    }
+
+    @media screen and (max-width: 806px) {
+        .imagem_livro {
+            margin-left: -70px !important;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .imagem_livro {
+            margin-left: 100px !important;
+            margin-bottom: 50px;
+        }
+        .livros1 {
+            height: 1000px !important;
+        }
+        .quantidade {
+            height: 1000px !important;
+        }
+        .botao {
+            margin-left: -5px;
+            width: 150%;
+        }
+    }
+
+
+    .centralizar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .centralizar h4 {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .centralizar p {
+        font-size: 13px;
+    }
+
+
+    .livros1{
+        height: 300px;
+        display:flex !important;
+        justify-content:space-between !important;
+        margin-bottom: 20px;
+    }
+
+    .icones {
+        color: yellow;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .linhas {
+        color: yellow !important;
+        
+    }
+
+    .centralizar2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .centralizar2 h4 {
+        font-size: 40px;
+        font-weight: normal;
+    }
+
+    .centralizar2 p {
+        font-size: 13px;
+    }
+
+
+    .quantidade{
+        height: 300px;
+        display:flex !important;
+        justify-content:space-between !important;
+        margin-bottom: 20px;
+    }
+
+    .botao .btn {
+        font-size: 15px;
+        margin-bottom: 30px;
+        background-color: yellow;
+        color: #112039;
+        font-weight:bolder;
+        border-color: #0000 !important;
+    }
+
+    .botao .btn:hover{
+        background-color: white;
+        color: #112039;
+    }
