@@ -4,13 +4,13 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Notification;
+use App\Models\Novidade;
 
 class MainController extends Controller
 {
     public function index()
     {
-        $noti = Notification::all();
-        return view('index',['notification' => $noti]);
+        return view('index',['notification' => Notification::all(), 'novidade'=> Novidade::all()]);
     }
 
     public function calendario(){

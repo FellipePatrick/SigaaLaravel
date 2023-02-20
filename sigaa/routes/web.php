@@ -25,6 +25,8 @@ Route::get('/dash', [DashController::class, 'dash']);
 
 Route::post('/notification', [DashController::class, 'store']);
 
+Route::post('/novidade', [DashController::class, 'setNew']);
+
 Route::get('/recuperarsenha',[LoginController::class, 'recuperarsenha']);
 
 Route::get('/cadastrar',[LoginController::class, 'cadastrar']);

@@ -22,7 +22,7 @@
                 <a href="/login" type="button" class="btn btn-outline-light btn-sm px-1">login </a>
                 <a href="/cadastrar" class="acadastrar">cadastre-se</a>
               </div>
-              <div class="asd fontes fw-bold" style="font-size: 35px;"><a href="/">UFRN</a></div>
+              <div class="asd fontes fw-bold" style="font-size: 35px;"><a href="/" class="atitle">UFRN</a></div>
               <div class="botaoo">
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                   <span class="navbar-toggler-icon"></span>
