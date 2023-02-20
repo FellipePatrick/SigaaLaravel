@@ -11,20 +11,15 @@
                   <img src="../img/image1.png" class="image_noticiap "width="100%" alt="">
                 </div>
                 <div class="col-lg-3 col-md-12 col-sm-12">
+                @foreach($notification as $noti)
                   <div class="conteudo py-4 fw-light">
-                    <h6>Prefeitura de Natal - RN</h6>
-                    <p class="text fw-semibold" style="font-size:10px ;">A PRÓ-REITORIA DE ASSUNTOS ESTUDANTIS TORNA PÚBLICO O 
-                    PROCESSO SELETIVO DA BOLSA PROMISAES–PROJETO MILTON SANTOS DE 
-                    ACESSO AO ENSINO SUPERIOR EDITAL – PROMISAES/SRI/PROAE - Nº 004/2022.1</p>
+                    <h6>{{$noti->title}}</h6>
+                    <p class="text fw-semibold" style="font-size:10px ;">
+                      {{$noti->description}}
+                    </p>
                     <div class="div border-bottom"> </div>
                   </div>
-                  <div class="conteudo py-2 fw-light ">
-                    <h6>Prefeitura de Natal - RN</h6>
-                    <p class=" fw-semibold" style="font-size:10px ;">A PRÓ-REITORIA DE ASSUNTOS ESTUDANTIS TORNA PÚBLICO O 
-                    PROCESSO SELETIVO DA BOLSA PROMISAES–PROJETO MILTON SANTOS DE 
-                    ACESSO AO ENSINO SUPERIOR EDITAL – PROMISAES/SRI/PROAE - Nº 004/2022.1</p>
-                    <div class="div border-bottom"> </div>
-                  </div>
+                @endforeach
                 </div>
                 <div class="col-md-2 col-sm-3 image2 ">
                   <img src="../img/image2.png" width="100%" height="100%"  alt="">

@@ -57,22 +57,25 @@
         <div class="container py-3">
           <ul class="nav nav-tabs">
             <li class="nav-item">
-              <a href="/" class="nav-link ">Destaques</a>
+              <a href="/" class="nav-link "><i class="fa-solid fa-house"></i> Destaques</a>
             </li>
             <li class="nav-item">
-              <a href="/calendario" class="nav-link">Calendário</a>
+              <a href="/calendario" class="nav-link"><i class="fa-solid fa-calendar"></i> Calendário</a>
             </li>
             <li class="nav-item">
-              <a href="/departamentos" class="nav-link">Departamentos</a>
+              <a href="/departamentos" class="nav-link"><i class="fa-solid fa-briefcase"></i> Departamentos</a>
             </li>
             <li class="nav-item">
-              <a href="/acervo" class="nav-link">Acervo</a>
+              <a href="/acervo" class="nav-link"><i class="fa-solid fa-book"></i> Acervo</a>
             </li>
             <li class="nav-item">
-              <a href="/extensao" class="nav-link">Extensão</a>
+              <a href="/extensao" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Extensão</a>
             </li>
             <li class="nav-item">
-              <a href="/cursos" class="nav-link">Cursos</a>
+              <a href="/cursos" class="nav-link"><i class="fa-brands fa-discourse"></i> Cursos</a>
+            </li>
+            <li class="nav-item">
+              <a href="/dash" class="nav-link"><i class="fa-solid fa-gauge"></i> Dash</a>
             </li>
           </ul>
         </div>
@@ -128,5 +131,6 @@
         </div>
         </footer>
         <!-- footer -->
+        <script src="https://kit.fontawesome.com/4fe9bd0970.js" crossorigin="anonymous"></script>
     </body>
 </html>
